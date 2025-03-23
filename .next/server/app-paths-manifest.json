@@ -1,10 +1,8 @@
 {
-  "/page": "app/page.js",
+  "/_not-found/page": "app/_not-found/page.js",
   "/dashboard/page": "app/dashboard/page.js",
+  "/symptoms/page": "app/symptoms/page.js",
   "/doctors/page": "app/doctors/page.js",
   "/patients/page": "app/patients/page.js",
-  "/appointments/page": "app/appointments/page.js",
-  "/prescriptions/page": "app/prescriptions/page.js",
-  "/symptoms/page": "app/symptoms/page.js",
-  "/logs/page": "app/logs/page.js"
+  "/appointments/page": "app/appointments/page.js"
 }

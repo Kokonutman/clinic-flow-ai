@@ -1,4 +1,4 @@
-// File: C:\Users\diyan\Hackathons\BisonBytes2025\project\src\app\prescriptions\page.tsx
+// File: C:\Work\hackathons\BisonBytes 2025\next-final-frontend\src\app\prescriptions\page.tsx
 import * as entry from '../../../../src/app/prescriptions/page.js'
 import type { ResolvingMetadata, ResolvingViewport } from 'next/dist/lib/metadata/types/metadata-interface.js'
 

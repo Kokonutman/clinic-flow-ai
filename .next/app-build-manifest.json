@@ -16,6 +16,16 @@
       "static/chunks/main-app.js",
       "static/chunks/app/dashboard/page.js"
     ],
+    "/symptoms/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/symptoms/page.js"
+    ],
+    "/prescriptions/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/prescriptions/page.js"
+    ],
     "/doctors/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
@@ -31,20 +41,10 @@
       "static/chunks/main-app.js",
       "static/chunks/app/appointments/page.js"
     ],
-    "/prescriptions/page": [
+    "/_not-found/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/prescriptions/page.js"
-    ],
-    "/symptoms/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/symptoms/page.js"
-    ],
-    "/logs/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/logs/page.js"
+      "static/chunks/app/_not-found/page.js"
     ]
   }
 }
