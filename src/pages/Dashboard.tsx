@@ -3,7 +3,6 @@ import Layout from '../components/Layout';
 import { appointments } from '../data/appointments';
 import { prescriptions } from '../data/prescriptions';
 import { symptoms } from '../data/symptoms';
-import { logs } from '../data/logs';
 import { doctors } from '../data/doctors';
 import { Calendar, Clock, AlertTriangle, Bell, Users } from 'lucide-react';
 
@@ -137,19 +136,6 @@ export default function Dashboard() {
               </div>
             </div>
           </div>
-        </div>
-
-        {/* Recent Activities Card */}
-        <div className="bg-white rounded-xl p-6 shadow-sm w-full"
-             style={{ boxShadow: '0 0 20px rgba(3, 166, 74, 0.15)' }}>
-          <h2 className="text-lg font-medium text-[#024059] mb-4">Recent Activities</h2>
-          <ul className="list-disc list-inside space-y-3">
-            {logs.slice(0, 3).map((log, index) => (
-              <li key={index} className="text-gray-600">
-                {log.message}
-              </li>
-            ))}
-          </ul>
         </div>
       </div>
     </Layout>
