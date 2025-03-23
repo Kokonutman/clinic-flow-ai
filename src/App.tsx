@@ -7,7 +7,6 @@ import Patients from './pages/Patients';
 import Appointments from './pages/Appointments';
 import Prescriptions from './pages/Prescriptions';
 import Symptoms from './pages/Symptoms';
-import Logs from './pages/Logs';
 
 function App() {
   return (
@@ -20,7 +19,6 @@ function App() {
         <Route path="/appointments" element={<Appointments />} />
         <Route path="/prescriptions" element={<Prescriptions />} />
         <Route path="/symptoms" element={<Symptoms />} />
-        <Route path="/logs" element={<Logs />} />
       </Routes>
     </Router>
   );
